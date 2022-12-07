@@ -14,9 +14,6 @@ func main() {
 	emailPtr := flag.String("e", "", "The email address of the user subscribing to the topic")
 	topicPtr := flag.String("t", "", "The ARN of the topic to which the user subscribes")
 
-	// emailPtr := "sapan.patibandha@solarisgroup.co.uk"
-	// topicPtr := "trial"
-
 	flag.Parse()
 
 	if *emailPtr == "" || *topicPtr == "" {

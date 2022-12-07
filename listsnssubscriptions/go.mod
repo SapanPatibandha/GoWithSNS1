@@ -1,4 +1,4 @@
-module createsns
+module listnssubscriptions
 
 go 1.19
 
